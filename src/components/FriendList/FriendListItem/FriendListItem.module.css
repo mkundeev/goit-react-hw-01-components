@@ -1,0 +1,32 @@
+.avatar{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.wrap{
+    display:flex;
+    width: fit-content;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.name{
+    margin-left: 10px;
+}
+span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: block;
+
+}
+
+.isOnline {
+    compose: span;
+    background-color: green;
+}
+
+.isOffline {
+    compose: span;
+    background-color: red;
+}
