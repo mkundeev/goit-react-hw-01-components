@@ -13,20 +13,19 @@
 .name{
     margin-left: 10px;
 }
-span {
-    width: 20px;
+
+.status{
+width: 20px;
     height: 20px;
     border-radius: 50%;
     display: block;
-
 }
-
 .isOnline {
-    compose: span;
+   composes: status;
     background-color: green;
 }
 
 .isOffline {
-    compose: span;
+    composes: status;
     background-color: red;
 }

@@ -24,10 +24,3 @@ p,h1,h2,h3, ul{
 li{
   list-style: none;
 }
-span.isOnline {
-  background-color: green;
-}
-
-span.isOffline {
-  background-color: red;
-}

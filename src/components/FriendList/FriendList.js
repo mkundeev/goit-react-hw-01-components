@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import s from '../FriendList/FriendList.module.css'
+import s from './FriendList.module.css'
 import FriendListItem from './FriendListItem/FriendListItem.js';
 
 function FriendList({friends}) {
@@ -19,7 +19,4 @@ function FriendList({friends}) {
 FriendList.propTypes = {
     friends: PropTypes.arrayOf(PropTypes.object).isRequired, 
 };
-
-
-
     export default FriendList;
