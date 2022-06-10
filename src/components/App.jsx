@@ -4,7 +4,7 @@ import FriendList from './FriendList/FriendList.js'
 import TransactionHistory from './TransactionHistory/TransactionHistory.js'
 import Container from './Container/Container.js'
 import user from './Profile/user.json'
-import data from '../js/addRandomColor'
+import data from './Statistics/data.json'
 import friendsData from './FriendList/friends.json'
 import transactions from './TransactionHistory/transactions.json'
 
